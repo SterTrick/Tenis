@@ -1,0 +1,64 @@
+[{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb6659"
+  },
+  "Ranking": 1,
+  "País": "Colombia",
+  "Puntos": 240
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665a"
+  },
+  "Ranking": 2,
+  "País": "México",
+  "Puntos": 240
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665b"
+  },
+  "Ranking": 3,
+  "País": "Paraguay",
+  "Puntos": 150
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665c"
+  },
+  "Ranking": 4,
+  "País": "Chile",
+  "Puntos": 105
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665d"
+  },
+  "Ranking": 5,
+  "País": "Argentina",
+  "Puntos": 60
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665e"
+  },
+  "Ranking": 6,
+  "País": "Perú",
+  "Puntos": 60
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb665f"
+  },
+  "Ranking": 7,
+  "País": "Brasil",
+  "Puntos": 60
+},
+{
+  "_id": {
+    "$oid": "6737c9d5c4cce6d08bfb6660"
+  },
+  "Ranking": 8,
+  "País": "Panamá",
+  "Puntos": 30
+}]

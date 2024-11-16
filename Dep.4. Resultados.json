@@ -1,0 +1,77 @@
+[{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb6649"
+  },
+  "Resultado_Encuentro1": {
+    "E1Ganador": "Chile",
+    "E1Perdedor": "Argentina",
+    "E1Puntos_totales_Ganador": 75,
+    "E1Puntos_totales_Perdedor": 60
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664a"
+  },
+  "Resultado_Encuentro2": {
+    "E2Ganador": "Colombia",
+    "E2Perdedor": "Brasil",
+    "E2Puntos_totales_Ganador": 75,
+    "E2Puntos_totales_Perdedor": 60
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664b"
+  },
+  "E3Resultado_Encuentro3": {
+    "E3Ganador": "México",
+    "E3Perdedor": "Perú",
+    "E3Puntos_totales_Ganador": 75,
+    "E3Puntos_totales_Perdedor": 60
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664c"
+  },
+  "E4Resultado_Encuentro4": {
+    "E4Ganador": "Paraguay",
+    "E4Perdedor": "Panamá",
+    "E4Puntos_totales_Ganador": 105,
+    "E4Puntos_totales_Perdedor": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664d"
+  },
+  "E5Resultado_Encuentro5": {
+    "E5Ganador": "México",
+    "E5Perdedor": "Chile",
+    "E5Puntos_totales_Ganador": 105,
+    "E5Puntos_totales_Perdedor": 30
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664e"
+  },
+  "E6Resultado_Encuentro6": {
+    "E6Ganador": "Colombia",
+    "E6Perdedor": "Paraguay",
+    "E6Puntos_totales_Ganador": 190,
+    "E6Puntos_totales_Perdedor": 45
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c729c4cce6d08bfb664f"
+  },
+  "E7Resultado_Encuentro7": {
+    "E7Ganador": "Colombia",
+    "E7Perdedor": "México",
+    "E7Puntos_totales_Ganador": 75,
+    "E7Puntos_totales_Perdedor": 60
+  }
+}]

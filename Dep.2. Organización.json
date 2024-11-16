@@ -1,0 +1,135 @@
+[{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb6635"
+  },
+  "Encuentro1": {
+    "Equipo1": {
+      "E1País1": "Argentina",
+      "Jugadora": "Ketel Marte"
+    },
+    "Equipo2": {
+      "E1País2": "Chile",
+      "Jugadora": "Sandra Aguilar"
+    },
+    "Fecha": "04/10/2024",
+    "Hora": "9:00am",
+    "E1Arbitro": "Anni Espar"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb6636"
+  },
+  "Encuentro2": {
+    "Equipo1": {
+      "E2País1": "Colombia",
+      "Jugadora": "Diana Castro"
+    },
+    "Equipo2": {
+      "E2País2": "Brasil",
+      "Jugadora": "Marileidy Paulino"
+    },
+    "Fecha": "04/10/2024",
+    "Hora": "1:00pm",
+    "E2Arbitro": "Erika Tovar"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb6637"
+  },
+  "Encuentro3": {
+    "Equipo1": {
+      "E3País1": "Perú",
+      "Jugadora": "Diana Taurasi"
+    },
+    "Equipo2": {
+      "E3País1": "México",
+      "Jugadora": "Ana Sofía Gómez"
+    },
+    "Fecha": "04/10/2024",
+    "Hora": "3:00pm",
+    "E3Arbitro": "María Pérez"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb6638"
+  },
+  "Encuentro4": {
+    "Equipo1": {
+      "E4País1": "Paraguay",
+      "Jugadora": "Sofia Huerta"
+    },
+    "Equipo2": {
+      "E4País2": "Panamá",
+      "Jugadora": "Starling Marte"
+    },
+    "Fecha": "05/10/2024",
+    "Hora": "9:00am",
+    "E4Arbitro": "Gianna Woodruff"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb6639"
+  },
+  "Encuentro5": {
+    "Equipo1": {
+      "E5País1": "Chile",
+      "Jugadora": "Sandra Aguilar"
+    },
+    "Equipo2": {
+      "E5País2": "México",
+      "Jugadora": "Ana Sofía Gómez"
+    },
+    "Fecha": "05/10/2024",
+    "Hora": "1:00pm",
+    "E5Arbitro": "Erika Tovar"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb663a"
+  },
+  "Encuentro6": {
+    "Equipo1": {
+      "E6País1": "Colombia",
+      "Jugadora": "Diana Castro"
+    },
+    "Equipo2": {
+      "E6País2": "Paraguay",
+      "Jugadora": "Sofia Huerta"
+    },
+    "Fecha": "05/10/2024",
+    "Hora": "4:00pm",
+    "E6Arbitro": "María Pérez"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb663b"
+  },
+  "Encuentro7": {
+    "Equipo1": {
+      "E7País1": "México",
+      "Jugadora": "Ana Sofía Gómez"
+    },
+    "Equipo2": {
+      "E7País2": "Colombia",
+      "Jugadora": "Diana Castro"
+    },
+    "Fecha": "06/10/2024",
+    "Hora": "4:00pm",
+    "E7Arbitro": "Gianna Woodruff"
+  }
+},
+{
+  "_id": {
+    "$oid": "6737c1a3c4cce6d08bfb663c"
+  },
+  "Premiación": {
+    "Fecha": "06/10/2024",
+    "Hora": "6:00pm"
+  }
+}]

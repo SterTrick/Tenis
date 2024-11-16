@@ -1,0 +1,203 @@
+[{
+  "_id": {
+    "$oid": "6737aefec4cce6d08bfb6621"
+  },
+  "Encuentro1": {
+    "E1Pais1": "Argentina",
+    "E1Pais2": "Chile",
+    "E1sets": [
+      {
+        "E1set1": {
+          "AS1": 15,
+          "ChS1": 30
+        }
+      },
+      {
+        "E1set2": {
+          "AS2": 0,
+          "CSh2": 45
+        }
+      },
+      {
+        "E1set3": {
+          "AS3": 45,
+          "ChS3": 0
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737afa4c4cce6d08bfb6623"
+  },
+  "Encuentro2": {
+    "E2Pais1": "Colombia",
+    "E2Pais2": "Brasil",
+    "sets": [
+      {
+        "E2Set1": {
+          "CS1": 30,
+          "BS1": 15
+        }
+      },
+      {
+        "E2Set2": {
+          "CS2": 30,
+          "BS2": 15
+        }
+      },
+      {
+        "E2Set3": {
+          "CS3": 15,
+          "BS3": 30
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737b1f1c4cce6d08bfb6627"
+  },
+  "Encuentro3": {
+    "E3Pais1": "Perú",
+    "E3Pais2": "México",
+    "E3Sets": [
+      {
+        "E3Set1": {
+          "PS1": 30,
+          "MS1": 15
+        }
+      },
+      {
+        "E3Set2": {
+          "PS2": 30,
+          "MS2": 15
+        }
+      },
+      {
+        "E3Set3": {
+          "PS3": 45,
+          "MS3": 0
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737b2bbc4cce6d08bfb6629"
+  },
+  "Encuentro4": {
+    "E4Pais1": "Paraguay",
+    "E4Pais2": "Panamá",
+    "E4sets": [
+      {
+        "E4Set1": {
+          "PrS1": 30,
+          "PnS1": 15
+        }
+      },
+      {
+        "E4Set2": {
+          "PrS2": 30,
+          "PnS2": 15
+        }
+      },
+      {
+        "E4Set3": {
+          "PrS3": 45,
+          "PnS3": 0
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737b336c4cce6d08bfb662b"
+  },
+  "Encuentro5": {
+    "E5Pais1": "Chile",
+    "E5Pais2": "México",
+    "E5sets": [
+      {
+        "E5Set1": {
+          "ChS1": 30,
+          "MS1": 15
+        }
+      },
+      {
+        "E5Set2": {
+          "ChS2": 0,
+          "MS2": 45
+        }
+      },
+      {
+        "E5Set3": {
+          "ChS3": 0,
+          "MS3": 45
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737b3b2c4cce6d08bfb662d"
+  },
+  "Encuentro6": {
+    "E6Pais1": "Colombia",
+    "E6Pais2": "Paraguay",
+    "E6sets": [
+      {
+        "E6Set1": {
+          "CS1": 30,
+          "PrS1": 15
+        }
+      },
+      {
+        "E6Set2": {
+          "CS2": 15,
+          "PrS2": 30
+        }
+      },
+      {
+        "E6Set3": {
+          "CS3": 45,
+          "PrS3": 0
+        }
+      }
+    ]
+  }
+},
+{
+  "_id": {
+    "$oid": "6737b4e3c4cce6d08bfb662f"
+  },
+  "Encuentro7": {
+    "E7Pais1": "México",
+    "E7Pais2": "Colombia",
+    "E7sets": [
+      {
+        "E7Set1": {
+          "PrS1": 0,
+          "PnS1": 45
+        }
+      },
+      {
+        "E7Set2": {
+          "PrS2": 30,
+          "PnS2": 15
+        }
+      },
+      {
+        "E7Set3": {
+          "PrS3": 30,
+          "PnS3": 15
+        }
+      }
+    ]
+  }
+}]

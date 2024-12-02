@@ -1,0 +1,39 @@
+
+// Insertar un solo participante
+db.participantes.insertOne({
+  "Nombre": "Nuevo Participante",
+  "Rol": "Tenista",
+  "País": "Ecuador"
+})
+
+// Insertar múltiples participantes
+db.participantes.insertMany([
+  {
+    "Nombre": "Participante 1",
+    "Rol": "Entrenadora",
+    "País": "Uruguay"
+  },
+  {
+    "Nombre": "Participante 2",
+    "Rol": "Arbitro",
+    "País": "Venezuela"
+  }
+])
+
+// Leer todos los participantes
+db.participantes.find()
+
+// Leer participantes de un país específico
+db.participantes.find({ "País": "Argentina" })
+
+// Actualizar el rol de un participante específico
+db.participantes.updateOne(
+  { "Nombre": "Ketel Marte" },
+  { $set: { "Rol": "Entrenador" } }
+)
+
+// Eliminar un participante específico
+db.participantes.deleteOne({ "Nombre": "Ketel Marte" })
+
+// Eliminar todos los participantes de un país específico
+db.participantes.deleteMany({ "País": "Argentina" })

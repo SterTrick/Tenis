@@ -1,0 +1,39 @@
+
+// Insertar un solo ranking
+db.rankings.insertOne({
+  "Ranking": 1,
+  "País": "Colombia",
+  "Puntos": 240
+})
+
+// Insertar múltiples rankings
+db.rankings.insertMany([
+  {
+    "Ranking": 2,
+    "País": "México",
+    "Puntos": 240
+  },
+  {
+    "Ranking": 3,
+    "País": "Paraguay",
+    "Puntos": 150
+  }
+])
+
+// Leer todos los rankings
+db.rankings.find()
+
+// Leer rankings de un país específico
+db.rankings.find({ "País": "Colombia" })
+
+// Actualizar los puntos de un país específico
+db.rankings.updateOne(
+  { "País": "Colombia" },
+  { $set: { "Puntos": 250 } }
+)
+
+// Eliminar un ranking específico
+db.rankings.deleteOne({ "País": "Colombia" })
+
+// Eliminar todos los rankings con menos de 100 puntos
+db.rankings.deleteMany({ "Puntos": { $lt: 100 } })

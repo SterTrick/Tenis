@@ -1,0 +1,102 @@
+
+// Insertar un solo encuentro con sets
+db.encuentros.insertOne({
+  "Encuentro1": {
+    "E1Pais1": "Argentina",
+    "E1Pais2": "Chile",
+    "E1sets": [
+      {
+        "E1set1": {
+          "AS1": 15,
+          "ChS1": 30
+        }
+      },
+      {
+        "E1set2": {
+          "AS2": 0,
+          "ChS2": 45
+        }
+      },
+      {
+        "E1set3": {
+          "AS3": 45,
+          "ChS3": 0
+        }
+      }
+    ]
+  }
+})
+
+// Insertar múltiples encuentros con sets
+db.encuentros.insertMany([
+  {
+    "Encuentro2": {
+      "E2Pais1": "Colombia",
+      "E2Pais2": "Brasil",
+      "sets": [
+        {
+          "E2Set1": {
+            "CS1": 30,
+            "BS1": 15
+          }
+        },
+        {
+          "E2Set2": {
+            "CS2": 30,
+            "BS2": 15
+          }
+        },
+        {
+          "E2Set3": {
+            "CS3": 15,
+            "BS3": 30
+          }
+        }
+      ]
+    }
+  },
+  {
+    "Encuentro3": {
+      "E3Pais1": "Perú",
+      "E3Pais2": "México",
+      "E3Sets": [
+        {
+          "E3Set1": {
+            "PS1": 30,
+            "MS1": 15
+          }
+        },
+        {
+          "E3Set2": {
+            "PS2": 30,
+            "MS2": 15
+          }
+        },
+        {
+          "E3Set3": {
+            "PS3": 45,
+            "MS3": 0
+          }
+        }
+      ]
+    }
+  }
+])
+
+// Leer todos los encuentros con sets
+db.encuentros.find()
+
+// Leer encuentros de un país específico
+db.encuentros.find({ "Encuentro1.E1Pais1": "Argentina" })
+
+// Actualizar los puntos de un set específico en un encuentro
+db.encuentros.updateOne(
+  { "Encuentro1.E1Pais1": "Argentina", "Encuentro1.E1sets.E1set1.AS1": 15 },
+  { $set: { "Encuentro1.E1sets.$.E1set1.AS1": 20 } }
+)
+
+// Eliminar un encuentro específico
+db.encuentros.deleteOne({ "Encuentro1.E1Pais1": "Argentina" })
+
+// Eliminar todos los encuentros de un país específico
+db.encuentros.deleteMany({ "Encuentro1.E1Pais1": "Argentina" })

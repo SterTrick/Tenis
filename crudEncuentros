@@ -1,0 +1,69 @@
+
+// Insertar un solo encuentro
+db.encuentros.insertOne({
+  "Encuentro1": {
+    "Equipo1": {
+      "E1País1": "Argentina",
+      "Jugadora": "Ketel Marte"
+    },
+    "Equipo2": {
+      "E1País2": "Chile",
+      "Jugadora": "Sandra Aguilar"
+    },
+    "Fecha": "04/10/2024",
+    "Hora": "9:00am",
+    "E1Arbitro": "Anni Espar"
+  }
+})
+
+// Insertar múltiples encuentros
+db.encuentros.insertMany([
+  {
+    "Encuentro2": {
+      "Equipo1": {
+        "E2País1": "Colombia",
+        "Jugadora": "Diana Castro"
+      },
+      "Equipo2": {
+        "E2País2": "Brasil",
+        "Jugadora": "Marileidy Paulino"
+      },
+      "Fecha": "04/10/2024",
+      "Hora": "1:00pm",
+      "E2Arbitro": "Erika Tovar"
+    }
+  },
+  {
+    "Encuentro3": {
+      "Equipo1": {
+        "E3País1": "Perú",
+        "Jugadora": "Diana Taurasi"
+      },
+      "Equipo2": {
+        "E3País1": "México",
+        "Jugadora": "Ana Sofía Gómez"
+      },
+      "Fecha": "04/10/2024",
+      "Hora": "3:00pm",
+      "E3Arbitro": "María Pérez"
+    }
+  }
+])
+
+// Leer todos los encuentros
+db.encuentros.find()
+
+// Leer encuentros de una fecha específica
+db.encuentros.find({ "Encuentro1.Fecha": "04/10/2024" })
+
+// Actualizar la hora de un encuentro específico
+db.encuentros.updateOne(
+  { "Encuentro1.Equipo1.Jugadora": "Ketel Marte" },
+  { $set: { "Encuentro1.Hora": "10:00am" } }
+)
+
+// Eliminar un encuentro específico
+db.encuentros.deleteOne({ "Encuentro1.Equipo1.Jugadora": "Ketel Marte" })
+
+// Eliminar todos los encuentros de una fecha específica
+db.encuentros.deleteMany({ "Encuentro1.Fecha": "04/10/2024" })

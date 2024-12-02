@@ -1,0 +1,48 @@
+
+// Insertar un solo resultado de encuentro
+db.resultados.insertOne({
+  "Resultado_Encuentro1": {
+    "E1Ganador": "Chile",
+    "E1Perdedor": "Argentina",
+    "E1Puntos_totales_Ganador": 75,
+    "E1Puntos_totales_Perdedor": 60
+  }
+})
+
+// Insertar múltiples resultados de encuentros
+db.resultados.insertMany([
+  {
+    "Resultado_Encuentro2": {
+      "E2Ganador": "Colombia",
+      "E2Perdedor": "Brasil",
+      "E2Puntos_totales_Ganador": 75,
+      "E2Puntos_totales_Perdedor": 60
+    }
+  },
+  {
+    "E3Resultado_Encuentro3": {
+      "E3Ganador": "México",
+      "E3Perdedor": "Perú",
+      "E3Puntos_totales_Ganador": 75,
+      "E3Puntos_totales_Perdedor": 60
+    }
+  }
+])
+
+// Leer todos los resultados de encuentros
+db.resultados.find()
+
+// Leer resultados de un encuentro específico
+db.resultados.find({ "Resultado_Encuentro1.E1Ganador": "Chile" })
+
+// Actualizar los puntos totales de un encuentro específico
+db.resultados.updateOne(
+  { "Resultado_Encuentro1.E1Ganador": "Chile" },
+  { $set: { "Resultado_Encuentro1.E1Puntos_totales_Ganador": 80 } }
+)
+
+// Eliminar un resultado de encuentro específico
+db.resultados.deleteOne({ "Resultado_Encuentro1.E1Ganador": "Chile" })
+
+// Eliminar todos los resultados de encuentros de un ganador específico
+db.resultados.deleteMany({ "Resultado_Encuentro1.E1Ganador": "Chile" })
